@@ -7,9 +7,9 @@ int main()
 {
 	set<int> test;
 
-	for (int i = 0; i < 10; ++i)
+	for (int i = 10; i > 0; --i)
 	{
-		test.insert(i + 1);
+		test.insert(i);
 	}
 
 	for (const auto& iter : test)

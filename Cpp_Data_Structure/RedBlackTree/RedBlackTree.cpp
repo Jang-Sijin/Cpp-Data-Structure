@@ -2,12 +2,8 @@
 
 namespace RedBlackTree
 {
-	template<typename T, >
-	class MySet
+	bool RedBlackTree::IsEmpty() const
 	{
-	public:
-		void Insert();
-	private:
-		int value;
-	};
+		return root == nullptr;
+	}
 }
